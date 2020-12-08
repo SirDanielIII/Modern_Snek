@@ -28,10 +28,10 @@ main_menu_logo = pg.image.load(os.getcwd() + "/resources_MS/main_menu_logo.png")
 grid = pg.image.load(os.getcwd() + "/resources_MS/default_grid.png").convert()  # Load main menu logo
 
 # Font Sizes
-snek_hat_f = pg.font.SysFont("BigNoodleTitling", 100)
-font_options = pg.font.SysFont("BigNoodleTitling", 75)
-font_htp = pg.font.SysFont("BigNoodleTitling", 65)
-font_play_game = pg.font.SysFont("BigNoodleTitling", 125)
+snek_hat_f = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 100)
+font_options = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 75)
+font_htp = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 65)
+font_play_game = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 125)
 
 # Global Variables
 change = 1

@@ -81,11 +81,11 @@ start_ticks = pg.time.get_ticks()  # Used to Pause Fruit Timer For 1 Second
 fruit_pause = 0
 
 # Fonts
-pause_title = pg.font.SysFont("BigNoodleTitling", 150)
-game_enable_t = pg.font.SysFont("BigNoodleTitling", 100)
-game_timer_t = pg.font.SysFont("BigNoodleTitling", 75)
-pause_text = pg.font.SysFont("BigNoodleTitling", 65)
-game_sub_t = pg.font.SysFont("BigNoodleTitling", 25)
+pause_title = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 150)
+game_enable_t = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 100)
+game_timer_t = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 75)
+pause_text = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 65)
+game_sub_t = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 25)
 
 # Pause Menu Colours
 resume_c = white

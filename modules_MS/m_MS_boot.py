@@ -43,7 +43,7 @@ load_confirm = False
 fade_in = True
 last_fade = False
 rect_width = 0
-loading = pg.font.SysFont("BigNoodleTitling", 75)
+loading = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 75)
 loading_render = loading.render("LOADING", True, white)
 
 

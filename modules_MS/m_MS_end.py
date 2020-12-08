@@ -29,9 +29,9 @@ end_background.blit(end_overlay, (0, 0))
 go_back = False
 
 # Fonts
-f_game_over = pg.font.SysFont("BigNoodleTitling", 250)
-f_play_again = pg.font.SysFont("BigNoodleTitling", 136)
-f_subtext = pg.font.SysFont("BigNoodleTitling", 65)
+f_game_over = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 250)
+f_play_again = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 136)
+f_subtext = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 65)
 # Font Colors
 play_again_c = white
 main_menu_c = white

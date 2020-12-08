@@ -51,9 +51,9 @@ pg.display.set_icon(snek_img)  # Sets Caption Icon
 clock = pg.time.Clock()
 FPS = 165
 
-# Global Variables
+# Global VariablesBigNoodleTitling
 running = True  # Runs The Game Loop
-small_font = pg.font.SysFont("BigNoodleTitling", 25)  # FPS Counter Font
+small_font = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 25)  # FPS Counter Font
 last_time = time.time()  # Used for Delta Time (Framerate Independence)
 
 # ------------------------------------------- Main Program Loop --------------------------------------------------------

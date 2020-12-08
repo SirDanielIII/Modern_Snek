@@ -43,12 +43,12 @@ grid_background.blit(grid_back_overlay, (0, 0))
 grid_background.blit(grid_back_header, (0, 0))
 
 # Fonts
-f_modes1 = pg.font.SysFont("BigNoodleTitling", 70)
-f_modes2 = pg.font.SysFont("BigNoodleTitling", 60)
-f_title = pg.font.SysFont("BigNoodleTitling", 100)
-f_sub_menu = pg.font.SysFont("BigNoodleTitling", 65)
-f_setting = pg.font.SysFont("BigNoodleTitling", 45)
-f_card = pg.font.SysFont("BigNoodleTitling", 35)
+f_modes1 = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 70)
+f_modes2 = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 60)
+f_title = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 100)
+f_sub_menu = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 65)
+f_setting = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 45)
+f_card = pg.font.Font("resources_MS/Big Noodle Titling.ttf", 35)
 
 # Global Variables
 go_back = False
